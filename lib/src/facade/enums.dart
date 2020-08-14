@@ -84,6 +84,9 @@ enum MyLocationType {
 
   /// 方向跟随
   Rotate,
+
+  /// 连续定位、蓝点不会移动到地图中心点，定位点依照设备方向旋转，并且蓝点会跟随设备移动
+  RotateLocateNoCenter,
 }
 
 enum RideType {
