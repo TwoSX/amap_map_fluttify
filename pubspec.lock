@@ -13,17 +13,17 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: dee61fec0fe3f167b5c44c7c4a21fcf1f0bff1b7
-      url: "git@github.com:yohom/amap_location_fluttify.git"
+      resolved-ref: "037ca547e0ec1d8e211a1a60f82722bc8271e263"
+      url: "git@github.com:fluttify-project/amap_location_fluttify.git"
     source: git
-    version: "1.0.0-dev.0"
+    version: "0.13.2"
   amap_search_fluttify:
     dependency: "direct main"
     description:
       name: amap_search_fluttify
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "0.11.0-dev.1"
+    version: "0.11.0"
   archive:
     dependency: transitive
     description:
@@ -108,7 +108,7 @@ packages:
       name: foundation_fluttify
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "0.8.11"
+    version: "0.8.11+1"
   image:
     dependency: transitive
     description:
