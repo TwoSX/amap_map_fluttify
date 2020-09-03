@@ -564,7 +564,7 @@ mixin _Community on _Holder {
   ///
   /// 地图的缩放级别一共分为 17 级，从 3 到 19. 数字越大，展示的图面信息越精细
   Future<void> setZoomLevel(double level, {bool animated = true}) async {
-    assert(level >= 3 && level <= 19, '缩放范围为3-19');
+//    assert(level >= 3 && level <= 19, '缩放范围为3-19');
     await platform(
       android: (pool) async {
         final map = await androidController.getMap();
